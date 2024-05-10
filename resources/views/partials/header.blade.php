@@ -5,6 +5,7 @@
             <div class="navbar-nav">
               <a class="nav-link" aria-current="page" href="{{route('home')}}">Home</a>
               <a class="nav-link" href="{{route('movies')}}">Movies</a>
+              <a class="nav-link" href="{{route('bestMovies')}}">Best Movies</a>
             </div>
           </div>
         </div>
