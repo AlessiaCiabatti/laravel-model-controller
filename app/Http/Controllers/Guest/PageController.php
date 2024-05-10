@@ -16,8 +16,8 @@ class PageController extends Controller
 
         //SELECT ] from movies
         $movies= Movie::all();
-        dd($movies);
+        // dd($movies);
 
-        return view('movies');
+        return view('movies', compact('movies'));
     }
 }
